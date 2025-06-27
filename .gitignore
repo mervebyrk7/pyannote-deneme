@@ -37,4 +37,7 @@ ENV/
 
 # OS dosyaları
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Proje özel klasörler
+temp_segments/ 

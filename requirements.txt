@@ -1,0 +1,41 @@
+# Gelişmiş Ses Analizi ve PyAnnote Sistemi
+# Gerekli Python kütüphaneleri
+
+# PyAnnote ve ses işleme
+pyannote.audio>=3.1.0
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Ses işleme ve analiz
+librosa>=0.10.0
+soundfile>=0.12.0
+sounddevice>=0.4.0
+noisereduce>=3.0.0
+scipy>=1.10.0
+
+# OpenAI ve dil işleme
+openai>=1.0.0
+
+# Makine öğrenmesi
+scikit-learn>=1.3.0
+numpy>=1.24.0
+
+# Görselleştirme
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# GUI ve kullanıcı arayüzü
+tkinter  # Python ile birlikte gelir
+
+# Yardımcı kütüphaneler
+requests>=2.31.0
+urllib3>=2.0.0
+certifi>=2023.0.0
+
+# İsteğe bağlı - GPU desteği için
+# torch[cuda] - CUDA destekli PyTorch için
+
+# Özel gereksinimler
+huggingface-hub>=0.16.0
+omegaconf>=2.3.0
+packaging>=23.0 

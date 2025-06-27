@@ -1,0 +1,40 @@
+# Python sanal ortam klasörü
+venv/
+
+# Python derleme dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dağıtım paketleri
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Ortam değişkenleri
+.env
+.venv
+env/
+ENV/
+
+# IDE dosyaları
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS dosyaları
+.DS_Store
+Thumbs.db 
